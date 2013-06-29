@@ -1,0 +1,11 @@
+{% macro test(name) %}
+
+<div>{{name}}</div>
+
+{% endmacro %}
+
+{% for x in list %}
+{{test(x)}}
+{%endfor %}
+
+
